@@ -1,6 +1,6 @@
 {
   "name": "@farhan21/cosmic-store",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tiny React state management library with hooks, inspired by Zustand & Redux",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
