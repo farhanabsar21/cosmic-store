@@ -1,9 +1,6 @@
 {
   "name": "@farhan21/cosmic-store",
-  "version": "1.0.1",
-  "publishConfig": {
-    "access": "public"
-  },
+  "version": "1.0.2",
   "description": "A tiny React state management library with hooks, inspired by Zustand & Redux",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -16,6 +13,14 @@
     "test": "vitest",
     "dev": "vitest watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhanabsar21/cosmic-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/farhanabsar21/cosmic-store.git"
+  },
+  "homepage": "https://github.com/farhanabsar21/cosmic-store.git",
   "keywords": [
     "react",
     "state",
@@ -23,7 +28,7 @@
     "state-management",
     "hooks"
   ],
-  "author": "Your Name",
+  "author": "Farhan Tafader",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=18"
@@ -33,5 +38,8 @@
     "tsup": "^8.0.0",
     "typescript": "^5.6.3",
     "vitest": "^2.1.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
