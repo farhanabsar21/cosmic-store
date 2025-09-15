@@ -1,0 +1,37 @@
+{
+  "name": "@farhan21/cosmic-store",
+  "version": "1.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A tiny React state management library with hooks, inspired by Zustand & Redux",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "vitest",
+    "dev": "vitest watch"
+  },
+  "keywords": [
+    "react",
+    "state",
+    "store",
+    "state-management",
+    "hooks"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "tsup": "^8.0.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
